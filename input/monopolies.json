@@ -1,0 +1,152 @@
+[
+  {
+    "monopoly": "Brown",
+    "properties": [
+      {
+        "name": "Mediterranean Avenue",
+        "price": 60,
+        "rent": 2
+      },
+      {
+        "name": "Baltic Avenue",
+        "price": 60,
+        "rent": 4
+      }
+    ]
+  },
+  {
+    "monopoly": "Light Blue",
+    "properties": [
+      {
+        "name": "Oriental Avenue",
+        "price": 100,
+        "rent": 6
+      },
+      {
+        "name": "Vermont Avenue",
+        "price": 100,
+        "rent": 6
+      },
+      {
+        "name": "Connecticut Avenue",
+        "price": 120,
+        "rent": 8
+      }
+    ]
+  },
+  {
+    "monopoly": "Pink",
+    "properties": [
+      {
+        "name": "St. Charles Place",
+        "price": 140,
+        "rent": 10
+      },
+      {
+        "name": "States Avenue",
+        "price": 140,
+        "rent": 10
+      },
+      {
+        "name": "Virginia Avenue",
+        "price": 160,
+        "rent": 12
+      }
+    ]
+  },
+  {
+    "monopoly": "Orange",
+    "properties": [
+      {
+        "name": "St. James Place",
+        "price": 180,
+        "rent": 14
+      },
+      {
+        "name": "Tennessee Avenue",
+        "price": 180,
+        "rent": 14
+      },
+      {
+        "name": "New York Avenue",
+        "price": 200,
+        "rent": 16
+      }
+    ]
+  },
+  {
+    "monopoly": "Red",
+    "properties": [
+      {
+        "name": "Kentucky Avenue",
+        "price": 220,
+        "rent": 18
+      },
+      {
+        "name": "Indiana Avenue",
+        "price": 220,
+        "rent": 18
+      },
+      {
+        "name": "Illinois Avenue",
+        "price": 240,
+        "rent": 20
+      }
+    ]
+  },
+  {
+    "monopoly": "Yellow",
+    "properties": [
+      {
+        "name": "Atlantic Avenue",
+        "price": 260,
+        "rent": 22
+      },
+      {
+        "name": "Ventnor Avenue",
+        "price": 260,
+        "rent": 22
+      },
+      {
+        "name": "Marvin Gardens",
+        "price": 280,
+        "rent": 24
+      }
+    ]
+  },
+  {
+    "monopoly": "Green",
+    "properties": [
+      {
+        "name": "Pacific Avenue",
+        "price": 300,
+        "rent": 26
+      },
+      {
+        "name": "North Carolina Avenue",
+        "price": 300,
+        "rent": 26
+      },
+      {
+        "name": "Pennsylvania Avenue",
+        "price": 320,
+        "rent": 28
+      }
+    ]
+  },
+  {
+    "monopoly": "Dark Blue",
+    "properties": [
+      {
+        "name": "Park Place",
+        "price": 350,
+        "rent": 35
+      },
+      {
+        "name": "Boardwalk",
+        "price": 400,
+        "rent": 50
+      }
+    ]
+  }
+]
