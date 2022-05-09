@@ -35,4 +35,8 @@ class PropertySpace(Space):
         if self.property.owner is None:
             player.buy(self.property)
         elif self.property.owner is not player:
-            player.pay(self.property.rent, self.property.owner)
+            if self.property.monopoly.owner:
+                price_to_pay = self.property.rent * 2
+            else:
+                price_to_pay = self.property.rent
+            player.pay(price_to_pay, self.property.owner)
