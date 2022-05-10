@@ -1,10 +1,14 @@
 class Monopoly:
-    def __init__(self, name):
+    def __init__(self, name, properties):
         self.name = name
         self.owner = None
+        self.properties = properties
 
     def set_owner(self, player):
         self.owner = player
+
+    def add_property(self, property_):
+        self.properties.append(property_)
 
 
 class Property:

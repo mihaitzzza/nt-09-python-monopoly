@@ -2,6 +2,8 @@ from abc import abstractmethod
 
 
 class Space:
+    def __init__(self, position):
+        self.position = position
 
     @abstractmethod
     def action(self, player):
@@ -14,7 +16,8 @@ class TaxSpace(Space):
 
 
 class CornerSpace(Space):
-    def __init__(self, is_free_parking = True, is_start = False, is_go_to_jail = False, is_visit_jail = False):
+    def __init__(self, position, is_free_parking=False, is_start=False, is_go_to_jail=False, is_visit_jail=False):
+        super().__init__(position)
         self.is_free_parking = is_free_parking
         self.is_start = is_start
         self.is_go_to_jail = is_go_to_jail
@@ -28,7 +31,8 @@ class CornerSpace(Space):
 
 
 class PropertySpace(Space):
-    def __init__(self, property_):
+    def __init__(self, position, property_):
+        super().__init__(position)
         self.property = property_
 
     def action(self, player):
