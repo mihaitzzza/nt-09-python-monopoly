@@ -1,5 +1,5 @@
 class Monopoly:
-    def __init__(self, name, properties):
+    def __init__(self, name, properties=[]):
         self.name = name
         self.owner = None
         self.properties = properties
